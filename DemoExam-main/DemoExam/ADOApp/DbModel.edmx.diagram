@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dea2657a69a14dc7a581c775da574eb1" Name="Diagram1">
+        <EntityTypeShape EntityType="DemoSafiullinModel.Client" Width="1.5" PointX="0.75" PointY="10.75" />
+        <EntityTypeShape EntityType="DemoSafiullinModel.ClientService" Width="1.5" PointX="3" PointY="9.25" />
+        <EntityTypeShape EntityType="DemoSafiullinModel.DocumentByService" Width="1.5" PointX="5.25" PointY="9.75" />
+        <EntityTypeShape EntityType="DemoSafiullinModel.Gender" Width="1.5" PointX="1.5" PointY="15.625" />
+        <EntityTypeShape EntityType="DemoSafiullinModel.Manufacturer" Width="1.5" PointX="0.75" PointY="2.625" />
+        <EntityTypeShape EntityType="DemoSafiullinModel.Product" Width="1.5" PointX="3" PointY="1.875" />
+        <EntityTypeShape EntityType="DemoSafiullinModel.ProductPhoto" Width="1.5" PointX="5.25" PointY="5.75" />
+        <EntityTypeShape EntityType="DemoSafiullinModel.ProductSale" Width="1.5" PointX="5.25" PointY="2.375" />
+        <EntityTypeShape EntityType="DemoSafiullinModel.Service" Width="1.5" PointX="0.75" PointY="7" />
+        <EntityTypeShape EntityType="DemoSafiullinModel.ServicePhoto" Width="1.5" PointX="3" PointY="18.5" />
+        <EntityTypeShape EntityType="DemoSafiullinModel.Tag" Width="1.5" PointX="3" PointY="6.625" />
+        <AssociationConnector Association="DemoSafiullinModel.FK_Client_Gender" />
+        <AssociationConnector Association="DemoSafiullinModel.FK_ClientService_Client" />
+        <AssociationConnector Association="DemoSafiullinModel.FK_ClientService_Service" />
+        <AssociationConnector Association="DemoSafiullinModel.FK_DocumentByService_ClientService" />
+        <AssociationConnector Association="DemoSafiullinModel.FK_ProductSale_ClientService" />
+        <AssociationConnector Association="DemoSafiullinModel.FK_Product_Manufacturer" />
+        <AssociationConnector Association="DemoSafiullinModel.FK_ProductPhoto_Product" />
+        <AssociationConnector Association="DemoSafiullinModel.FK_ProductSale_Product" />
+        <AssociationConnector Association="DemoSafiullinModel.FK_ServicePhoto_Service" />
+        <AssociationConnector Association="DemoSafiullinModel.AttachedProduct" />
+        <AssociationConnector Association="DemoSafiullinModel.TagOfClient" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
